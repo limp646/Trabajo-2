@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First JavaScript</h2>
+
+<p id="demo"></p>
+
+<script>
+
+// create object
+var superheroe = {
+    firstName: "David",
+    lastName: "bala",
+	numero de heroe: 1289,
+	id: 23654,
+	estatura: 1.72,
+	fullName: function() {return this.firstName + " " + this.lastName;},
+	canBuy: function(n) {return this.numero de heroe >= n;} 
+};
+
+var carro = {
+    marca: "Toyota",
+	costo: 1203900,
+	numero de serie: "toyota1136tacoma698,
+	color: "",
+	frenos: abs,
+	numero de serie: function(str) { this.nunero de serie = str; },
+	alternarfrenos: function() { this.frenos = !this.frenos; }
+};
+
+var computadoras = {
+	marca: "hp",
+	procesador:"windows"
+	money: 0,
+	homeID: 432,
+	ticks: 24,
+	marca: function(s) { this.marca = s;},
+	procesador: function() { this.procesador = "";}
+};
+
+var motos ={
+    marca: xp,
+	potencia:120hp, 
+	llantas: 2,
+	serviciodemoto: "fordmecanic",
+	suspension: king shocks,
+	motos: function() { marca++; },
+	observaciones: function() { return marca > potencia; }
+};
+
+
+var Tetris = {
+    sells: 2934875293,
+	red: "Rojo",
+	blue: "Azul",
+	green: "Verde",
+	yellow: "Amarillo",
+	getSells: function() { return sells; },
+	nameOf: function() { return this[1 + n]; }
+}
+
+
+// string that acumulates stuff
+var str = "";
+function log(txt) {
+    str += txt + "<br>";
+    document.getElementById('demo').innerHTML = str;
+}
+
+// next id printer
+function nextID() {
+    log("id: " + (person.id + 1));
+}
+
+
+
+</body>
+</html> 
