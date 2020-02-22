@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="uft-8">
+    <title></title>
+</head>
+<body>
+    <h1>Deez</h1>
+    <h1>Nuts</h1>
+    <h1>haha gotem</h1>
+    <script>
+		// variables
+        let noun = "The Matrix";
+		let adj = "azul";
+		let verb = "construyo";
+		let adverb = "muy tarde";
+		
+		sentence = "Juan fue " + noun + " " + verb + " " + adverb + " a pasear con su perro " + adj + ".";
+        document.writeln(sentence);
+		document.writeln("<br>");
+		sentence = "Comprar en la tienda " + noun + " un chocolate."
+		document.writeln(sentence);
+		document.writeln("<br>");
+		sentence = "Pero no habia " + verb + ". ¿" + noun + " " + verb + "no lo veia venir";
+		document.writeln(sentence);
+		document.writeln("<br>");
+		sentence = "Entonces fue a comprtar " + verb + " " + noun + " especialmente " + adverb + ". En otra tienda";
+		document.writeln(sentence);
+		document.writeln("<br>");
+		sentence = "Pero estaba cerrado " + adj + ". Porque " + noun + " Ya era muy noche.";
+		document.writeln(sentence);
+		document.writeln("<br>");
+		
+		document.writeln("Binary solo");
+		document.writeln("<br>");
+		
+		let a = 23;
+		a--;
+		document.writeln(a += 421 * 2.3 / 547);
+		document.writeln("<br>");
+		
+    </script>
+</body>
+</html>
